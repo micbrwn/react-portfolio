@@ -1,0 +1,23 @@
+.tron {
+    background-color: rgb(187, 221, 233);
+}
+
+/* .btn {
+    margin: 5px;
+} */
+
+.card-text {
+    color: black;
+}
+
+/* .card {
+    width: fit-content;
+} */
+
+.carousel-control-next {
+    color: lightgreen;
+}
+
+.carousel-control-prev {
+    color: lightpink;
+}

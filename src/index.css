@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    font-family: sans-serif;
+    /* text-align: center; */
+    margin: 15px;
+  }
+  
+  :root {
+    --text-color: black;
+    --background-color: white;
+    /* --background-image: url('https://images.unsplash.com/photo-1589298644294-8110145d9767?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80') */
+    --a-color: blue;
+  }
+  
+  .dark {
+    --text-color: white;
+    --background-color: #212121;
+    /* --background-image: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") */
+    --a-color: #4fc3f7;
+  }
+  
+  p,
+  /* span, */
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--text-color);
+  }
+  a {
+    color: var(--a-color);
+  }
+  body {
+    background-color: var(--background-color);
+    /* background-image: var(--background-image); */
+  }

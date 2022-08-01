@@ -1,0 +1,23 @@
+.nbar {
+    /* background-color: lavender; */
+    justify-content: space-around;
+}
+
+.navcon {
+    justify-content: space-around;
+
+}
+
+.nav-link {
+    font-size: 20px;
+    /* justify-content: end; */
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: aqua;
+}
+ 
+.title {
+    color: aqua;
+}

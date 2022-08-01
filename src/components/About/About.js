@@ -1,0 +1,61 @@
+import React from "react";
+import { Jumbotron } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
+
+export default function About() {
+  return (
+    <section>
+      <Jumbotron className="abouttron">
+        <h1>About Me</h1>
+        <p>
+          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
+          Curabitur
+        </p>
+      </Jumbotron>
+
+      <div className="content">
+        <div>
+          <h5><strong>Languages</strong></h5>
+          <li>
+            JavaScript <i class="fa-brands fa-js"></i>
+          </li>
+          {/* <li></li>
+                <li></li>
+                <li></li> */}
+        </div>
+        <div>
+        <h5><strong>Frameworks/Libraries</strong></h5>
+          <li>
+            Node.js <i class="fa-brands fa-node"></i>
+          </li>
+          <li>Express.js</li>
+          <li>
+            React.js <i class="fa-brands fa-react"></i>
+          </li>
+          <li>
+            Bootstrap <i class="fa-brands fa-bootstrap"></i>
+          </li>
+        </div>
+        <div>
+        <h5><strong>Databases</strong></h5>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          {/* <li></li>
+                <li></li> */}
+        </div>
+        <div>
+        <h5><strong>Tools</strong></h5>
+          <li>
+            Git <i class="fa-brands fa-git"></i>
+          </li>
+          <li>
+            GitHub <i class="fa-brands fa-github"></i>
+          </li>
+          <li>Webpack</li>
+          <li>DevTools</li>
+        </div>
+      </div>
+    </section>
+  );
+}
