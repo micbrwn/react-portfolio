@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.333b7551.css",
+    "main.js": "/React-Portfolio/static/js/main.82d68d94.js",
+    "static/media/cheers.png": "/React-Portfolio/static/media/cheers.02b46bc34f14886d897b.png",
+    "static/media/weatherdash.png": "/React-Portfolio/static/media/weatherdash.312b8ad0318e076f5c66.png",
+    "static/media/passwordgenerator.png": "/React-Portfolio/static/media/passwordgenerator.4d254045cf3420dc106e.png",
+    "static/media/chirp-mg.png": "/React-Portfolio/static/media/chirp-mg.e7fb23ec4108ec8aa417.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.333b7551.css.map": "/React-Portfolio/static/css/main.333b7551.css.map",
+    "main.82d68d94.js.map": "/React-Portfolio/static/js/main.82d68d94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.333b7551.css",
+    "static/js/main.82d68d94.js"
+  ]
+}
